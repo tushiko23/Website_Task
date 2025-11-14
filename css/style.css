@@ -1,0 +1,184 @@
+@import url('destyle.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  max-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+
+/* ヘッダー */
+.Page-Header {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 -20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.Title-Logo-SP {
+  display: none;
+}
+
+.Header-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 36px 0px 36px;
+  height: 70px;
+}
+
+.Hamburger-Button {
+  display: none; 
+}
+
+.Nav-List {
+  margin: 0;
+  padding: 0;  
+  display: flex;
+  list-style: none; 
+  text-align: center;
+  font-weight: 600;
+  gap: 45px;
+  height: 70px;
+  align-items: center;
+}
+
+.Nav-List-Item span {
+  display: block;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  line-height: 14.4px;
+  color: #333333;
+}
+
+.Nav-List-Item span:first-child {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+
+}
+
+.Nav-List-Item span:last-child {
+  font-size: 10px;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav-List-Button {
+  color: white;
+  background-color: #F79714;
+  border: none;
+  border-radius: 20px;
+  padding: 14px 20px;
+  font-size: 12px;
+  transition: background-color 0.25s;
+}
+
+.Title-Logo:hover {
+  opacity: 0.7;
+}
+.Nav-List-Item:hover {
+  opacity: 0.7;
+}
+.Icon-Button:hover {
+  opacity: 0.7;
+}
+
+/* main要素 */
+.FirstView {
+  position: relative;
+  height: 670px;
+  background-color: white;
+}
+
+.SP-Whole-Visual-Image {
+  display: none;
+}
+
+.PC-Left-Rectangle-Image {
+  position: absolute; 
+  top: -70px; 
+}
+
+.PC-Fill-rectangle-Image {
+  position: absolute;
+  top: 84px;
+  left: -70px;
+}
+
+.PC-MainVisual-Image {
+  position: absolute;
+  width: 775px;
+  top: -70px;
+  right: 0px;
+  bottom: 40px;
+}
+
+.PC-Right-Rectangle-Image {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.FirstView-Badge-Image {
+  position: absolute;
+  z-index: 0;
+  top: 110px;
+  left: 49%;
+  transform: translateX(-49%);
+  margin-left: 30px;
+}
+
+
+.FirstView-Container {
+  max-width: 1040px;
+  padding-top: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; 
+  z-index: 3;
+}
+
+.FirstView-Message {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  letter-spacing: 0.02em;
+  line-height: 63px;
+}
+
+.FirstView-Message-Line {
+  display: block;
+  white-space: nowrap;
+}
+
+.FirstView-Message span:last-child {
+  padding-bottom: 10px;
+}
+
+.FirstView-Button {
+  color: white;
+  background-color: #F79714;
+  border: none;
+  border-radius: 60px;
+  padding: 25px 140px;
+  font-size: 16px;
+  margin: 5px 0;
+  transition: background-color 0.25s;
+}
+
+.Survey-Basis {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 15px;
+}
